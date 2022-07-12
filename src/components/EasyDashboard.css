@@ -1,0 +1,204 @@
+.ez-tailwind .ez-card {
+    max-height: 250px;    
+}
+
+.ez-bootstrap .ez-card {
+    height: 100%;
+}
+
+.ez-materialize .ez-card {
+    min-height: 230px;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
+.ez-card {
+    /* max-height: 250px; */
+    vertical-align: center;
+    /* border: 1px solid black; */
+    //padding: 0px;    
+}
+
+/* //bootstrap is used
+.row > .ez-card {
+    max-height: unset;
+    vertical-align: center;
+} */
+
+.ez-card-table {    
+    vertical-align: center;
+}
+
+.ez-statistic {
+    display: flex;
+    flex-direction: column;    
+    align-items:center;    
+}
+
+.ez-vertical-center {
+    align-self: center;
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    /* height: 100%; */
+    margin-top: auto;
+    margin-bottom: auto;    
+}
+
+.ez-tailwind .ez-data {
+    max-height: 150px;
+}
+
+.ez-data {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+
+.ez-data-row {
+    flex-grow: 0;
+    text-align: left;
+    padding: 10px;
+}
+
+
+.ez-icon {
+    flex-grow: 1;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100px;
+    max-height: 150px;
+}
+
+.ez-title {
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.ez-title-middle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.ez-indicator {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.5em;
+    /* font-size: 1.5vw; */
+}
+
+.ez-info {
+    text-align: left;
+    font-size: 0.8em;
+    flex-grow: 1;    
+    margin-right: 10px;
+}
+
+
+.ez-circle {    
+    position: relative;    
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    min-height: 80px;
+    /* height: 50%; */
+    /* padding: 25%; */
+
+    /* resize: horizontal; */
+    border-radius: 100%;
+    margin: auto;
+    
+    /* Just making it pretty */
+    @shadow: rgba(0, 0, 0, .1);
+    @shadow-length: 4px;
+    -webkit-box-shadow: 0 @shadow-length 0 0 @shadow;
+            box-shadow: 0 @shadow-length 0 0 @shadow;
+    text-shadow: 0 @shadow-length 0 @shadow;
+    background: #38a9e4;
+    color: white;
+    font-family: Helvetica, Arial Black, sans;
+    font-size: 50px;    
+    line-height: 80px;    
+    text-align: center;
+  }
+
+
+  .ez-card .material-icons {
+    font-size: unset;
+    line-height: unset;
+}
+
+.ez-card-table .material-icons {
+    font-size: unset;
+    line-height: unset;
+}
+
+
+
+
+
+
+.ez-table {
+    border-collapse: collapse;    
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+}
+
+
+.ez-table thead tr {    
+    text-align: center;
+}
+
+.ez-table thead tr.color {
+    background-color: #009879;
+    color: #ffffff;  
+    text-align: left;  
+}
+
+.ez-table thead tr th {
+    padding: 12px 0px 12px 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.ez-table thead tr.color th {
+    padding: 12px 0px 12px 10px;
+    text-align: left;
+}
+
+.ez-table td {
+    padding: 12px 0px 12px 10px;    
+    text-align: left;
+}
+
+.ez-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.ez-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.ez-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.ez-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+
+
+

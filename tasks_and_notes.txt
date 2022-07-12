@@ -1,0 +1,71 @@
+
+https://spankbang.com/6r6c0/video/bikini+ifrit
+Mia Piper (not hazel grace)
+milana milka
+lady dee
+anna de ville
+------------------------------------------
+[DONE] Compatibility: Font Awesome Icons
+[DONE] Compatibility: Material Icons
+Compatibility: Custom Images/SVGs !!!
+
+[DONE] Compatibility: Tailwind
+[DONE] Compatibility: Bootstrap
+Compatibility: Material
+
+Compatibility: DARK MODE !!!! / COLOR PALLETE
+------------------------------------------
+Info: HUD Add Last UPDATE to each widget
+------------------------------------------
+
+Input: Layout
+Input: Styling -- "COLOR PALLETE" !!!
+Input: Data
+Input: Number formatting
+------------------------------------------
+Defaults: Barchart Default Settings should make sense !!!
+Defaults: Line Default Settings should make sense !!!
+------------------------------------------
+Feature: Add SOURCES !!! (configure 'fetch' request and schedule it so that when it is open in the screen it refreshes by scheduled requests)
+------------------------------------------
+CODE: Gather CSS in one file and reference & make scss
+
+
+PRODUCT IDEA: Add 'Hook' source - so that instead of fetching the data for a source, we create an endpoint on the server side (for example https://easy-dashboard/<username>/hooks/<source> and
+ the user should post his data here. Each time he posts the data, the dashboard is 'realtime' updated (probably with sockets).
+ 
+ 
+PRODUCT IDEA: After the user has customized the dashboard - we offer a 'DOWNLOAD THE CODE OF THIS DASHBOARD' and he downloads the entire code for the configured logic. Then he can host it anywhere (he should either only download the front-end or the back-end I don't know yet....
+------------------------------------------
+Aesthetics: Primary Color
+Aesthetics: Secondary Color
+
+Aesthetics: (Third Color ??)
+Aesthetics: Calculate rest of colors?
+------------------------------------------
+
+------------------------------------------
+
+OPEN SOURCE: Make Npm
+OPEN SOURCE: Make Documentation
+OPEN SOURCE: Add Documentation to Github
+OPEN SOURCE: Add Ko-fi or Buy me a beer...
+-------------------------------------------
+Functionality: TV MODE > Show Data Points Hover info popup, for a few seconds each one - so that they are shown without requiring interaction
+Functionality: TV MODE > Add Interaction with REMOTE CONTROL !!!!
+
+
+
+-------------------------------------------
+IDEA: First input the data. It understands what widgets it will show automagically... THEN after it renders you go through the UI and setup the props for each widget.......
+
+IDEA:
+Dev visits the github project Open Source Control. 
+We describe the "Basic" configuration and prompt him to the documentation site. 
+Then we prompt him to the configurator website. 
+
+There he sets up a dashboard with the designer/configurator in some kind of 1 or 2 step wizard and in the end we prompt him to "DOWNLOAD THE CONFIGURATION" OR [!!!] "HOST IT IN OUR SERVICE!!!".
+Perhaps there we give him her the first month for free !!!!
+
+IDEA: Setup Notification Rules on a Dashboard..... => Notification Service !!! Probably along with an app that shows the dashboard and sends notifications instead of e-mails... !!!
+
