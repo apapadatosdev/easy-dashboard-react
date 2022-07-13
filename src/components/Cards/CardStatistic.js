@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import './CardStatistic.css';
 
-import EZLabel from "../Shared/EZLabel";
+import EZLabel from "../shared/EZLabel";
 
 export default function CardStatistic({
   statSubtitle,
@@ -22,7 +22,7 @@ export default function CardStatistic({
             <div className="ez-data" style={{background: ''}}>
                 <div className="ez-data-row" style={{background: ''}}>                
                     <h5 className="ez-title"><EZLabel text={statSubtitle} pre={{font_awesome: "fa-solid fa-user"}} post={{material_icon: "settings"}}></EZLabel></h5>
-                    <span className="ez-indicator"><i class="fa-solid fa-user"></i> {statTitle} <i class="material-icons">settings</i></span>
+                    <span className="ez-indicator"><EZLabel text={statTitle} pre={{font_awesome: "fa-solid fa-user"}} post={ <img src={process.env.PUBLIC_URL + "demo_icon.svg"} alt="demo drink icon" style={{height: '1em'}} ></img> }></EZLabel></span>
                 </div>
                 <div className="ez-data-row" style={{background: ''}}>
                     <span className="ez-info"><i class="fa-solid fa-user"></i> {statPercent} <i class="material-icons">settings</i></span>                

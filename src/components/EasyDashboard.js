@@ -1,10 +1,7 @@
 // import Chart from "chart.js";
 import { useEffect, useRef, useState } from "react";
-import CardBarChart from "./Cards/CardBarChart";
-import CardLineChart from "./Cards/CardLineChart";
-import CardSimpleIndicator from "./Cards/CardSimpleIndicator";
-import CardStatistic from "./Cards/CardStatistic";
-import CardTable from "./Cards/CardTable";
+
+import EZWidget from "./basic/EZCard";
 import './EasyDashboard.css';
 
 const EasyDashboard = (props) => {
@@ -166,27 +163,27 @@ const EasyDashboard = (props) => {
                 </div>        
              :
              <div className={framework_used_class} ref={containerRef}>                
-                <div className={styles1}>
-                    <CardStatistic className={maxViewportClass.class + " " + styles_1_slot}></CardStatistic>
-                    <CardStatistic className={maxViewportClass.class + " " + styles_1_slot}></CardStatistic>
-                    <CardBarChart className={maxViewportClass.class + " " + styles_1_slot}></CardBarChart>
-                    <CardLineChart className={maxViewportClass.class + " " + styles_1_slot}></CardLineChart>
+                <div className={styles1}>                    
+                    <EZWidget type="indicator" className={maxViewportClass.class + " " + styles_1_slot}></EZWidget>
+                    <EZWidget type="indicator" className={maxViewportClass.class + " " + styles_1_slot}></EZWidget>
+                    <EZWidget type="barchart" className={maxViewportClass.class + " " + styles_1_slot}></EZWidget>
+                    <EZWidget type="linechart" className={maxViewportClass.class + " " + styles_1_slot}></EZWidget>
                 </div>        
                 <div className={styles2}>
-                    <CardStatistic className={styles_2_slot}></CardStatistic>
-                    <CardStatistic className={styles_2_slot}></CardStatistic>
-                    <CardStatistic className={styles_2_slot}></CardStatistic>
-                    <CardStatistic className={styles_2_slot}></CardStatistic>
-                    <CardStatistic className={styles_2_slot}></CardStatistic>
-                    <CardStatistic className={styles_2_slot}></CardStatistic>
+                    <EZWidget type="indicator" className={styles_2_slot}></EZWidget>
+                    <EZWidget type="indicator" className={styles_2_slot}></EZWidget>
+                    <EZWidget type="indicator" className={styles_2_slot}></EZWidget>
+                    <EZWidget type="indicator" className={styles_2_slot}></EZWidget>
+                    <EZWidget type="indicator" className={styles_2_slot}></EZWidget>
+                    <EZWidget type="indicator" className={styles_2_slot}></EZWidget>
                 </div>   
                 <div className={styles3}>                
-                    <CardLineChart className={styles_3_slot}></CardLineChart>
-                    <CardTable className={styles_3_slot}></CardTable>
+                    <EZWidget type="linechart" className={styles_3_slot}></EZWidget>
+                    <EZWidget type="table" className={styles_3_slot}></EZWidget>
                 </div>     
                 <div className={styles4}>
-                    <CardBarChart className={styles_4_slot}></CardBarChart>
-                    <CardTable className={styles_4_slot}></CardTable>                
+                    <EZWidget type="barchart" className={styles_4_slot}></EZWidget>
+                    <EZWidget type="table" className={styles_4_slot}></EZWidget>                
                 </div>                    
             </div>                       
     )
